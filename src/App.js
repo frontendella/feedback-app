@@ -15,7 +15,7 @@ function App() {
         <div className='container'>
           <Routes>
             <Route
-              path='/'
+              path='/feedback-app'
               element={
                 <>
                   <FeedbackForm />
@@ -23,7 +23,7 @@ function App() {
                   <FeedbackList />
                 </>
               }
-            ></Route>
+            />
 
             <Route path='/about' element={<AboutPage />} />
           </Routes>
